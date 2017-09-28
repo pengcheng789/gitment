@@ -1144,3 +1144,15 @@ a.gitment-editor-footer-tip:hover {
 .gitment-markdown hr {
   border-bottom-color: #eee;
 }
+
+@media (min-width: 700px){
+  .gitment-editor-container{
+  	margin-top:40px;
+  }
+  
+  .gitment-deitor-login{
+    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);                      
+  }
+}
